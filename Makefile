@@ -21,3 +21,6 @@ start-postgres:
 
 stop-postgres:
 	docker-compose down
+
+download-python:
+	brew install python@3.11
